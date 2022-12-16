@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  background-color: #073333;
+  color: #fff;
+}
+
+.row {
+  width: 75%;
+  margin: auto;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.list li {
+  margin: auto 1rem;
+  cursor: pointer;
+}
+
+.join {
+  padding: 0.5rem 1rem;
+  border: solid 2px #14c2a3;
+}
