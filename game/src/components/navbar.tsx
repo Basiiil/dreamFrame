@@ -1,4 +1,5 @@
 import styles from "./navbar.module.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -6,8 +7,16 @@ function Navbar() {
       <div className={styles.row}>
         <div>Cybox</div>
         <ul className={styles.list}>
-          <li>HOME</li>
-          <li>CARD</li>
+          <li>
+            <Link to="/" className={styles.link}>
+              HOME
+            </Link>
+          </li>
+          <li>
+            <Link to="/card" className={styles.link}>
+              CARD
+            </Link>
+          </li>
           <li>WALLET</li>
         </ul>
         <div className={styles.join}>JOIN DISCORD</div>
