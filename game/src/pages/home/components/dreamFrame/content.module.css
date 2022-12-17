@@ -1,0 +1,10 @@
+.box {
+  background-color: rgba(34, 183, 143, 0.1);
+  padding: 1rem;
+  /* border: solid 2px; */
+}
+
+.box p {
+  margin: 0;
+  padding: 0;
+}

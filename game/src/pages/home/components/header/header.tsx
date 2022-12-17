@@ -12,12 +12,13 @@ function Header() {
         <Navbar />
         <div className={styles.box}>
           <h1 className={styles.title}>
-            CYbox nft <br /> collectionS <br /> for everyone
+            create high-quality <br /> blockchain games and <br /> comfortable
+            Play2Earn
           </h1>
           <p className={styles.description}>
-            Nulla ornare sagittis placerat nunc sit tempus enim.
-            <br /> Accumsan pellentesque ipsum felis tristique at proin <br />{" "}
-            vel turpis.
+            DreamFrame is an Unreal-Engine based platform that <br /> allows its
+            developers to create multiplayer and <br />
+            multiplatform games on the blockchain
           </p>
           <div className={styles.buttons}>
             <div className={styles.wallet}>connect wallet</div>
