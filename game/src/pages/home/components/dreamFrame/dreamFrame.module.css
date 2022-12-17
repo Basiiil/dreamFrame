@@ -1,4 +1,5 @@
 .dreamFrame {
+  margin-top: 3rem;
 }
 
 .box {
@@ -26,4 +27,5 @@
 .core span {
   display: block;
   margin-bottom: 1rem;
+  color: #b9b9bf;
 }

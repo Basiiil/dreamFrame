@@ -21,13 +21,24 @@ function DreamFrame() {
         </div>
 
         <Content
+          title="DreamFrame's position"
+          description="We are the world's leading platform for distributing blockchain games"
+        />
+
+        <Content
+          title="DreamFrame's Vision"
+          description="Bringing blockchain games to life"
+        />
+
+        <Content
           title="DreamFrame's Stake"
           description="Provides stake pools for more investment stats"
         />
 
-        <div>3333333333333</div>
-        <div>44444444444</div>
-        <div>555555555</div>
+        <Content
+          title="DreamWorld's Mission"
+          description="Serving global players of blockchain games and companies"
+        />
       </div>
     </div>
   );
