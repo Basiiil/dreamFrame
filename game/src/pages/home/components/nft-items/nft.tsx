@@ -13,6 +13,7 @@ function Nft() {
             image={nft.image}
             name={nft.name}
             level={nft.level}
+            active={nft.active}
           />
         ))}
       </div>

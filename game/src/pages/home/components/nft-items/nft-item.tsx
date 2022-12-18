@@ -1,8 +1,8 @@
 import styles from "./nft-item.module.css";
 
-function NftItem({ name, image, level }) {
+function NftItem({ name, image, level, active }) {
   return (
-    <div className={styles.item}>
+    <div className={`${styles.item} ${active && `${styles.active}`}`}>
       <div className={styles.image}>
         <img src={image} alt={name} />
       </div>

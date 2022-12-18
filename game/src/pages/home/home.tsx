@@ -1,4 +1,5 @@
 import DreamFrame from "./components/dreamFrame/dreamFrame";
+import Faqs from "./components/faqs/faqs";
 import Games from "./components/games/games";
 import Headers from "./components/header/header";
 import Nft from "./components/nft-items/nft";
@@ -11,6 +12,7 @@ function Home() {
       <DreamFrame />
       <Games />
       <Nft />
+      <Faqs />
     </div>
   );
 }
