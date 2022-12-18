@@ -4,7 +4,7 @@ import Content from "./content";
 
 function Faqs() {
   return (
-    <div>
+    <div className={styles.container}>
       <div className={styles.text}>
         <span>faqs</span>
         <h3>Looking for answers?</h3>

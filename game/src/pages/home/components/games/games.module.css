@@ -1,6 +1,9 @@
-/* .container {
-  margin-left: 10%;
-} */
+.container {
+  background-color: #141a31;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: "Chakra Petch";
+}
 
 .container h1 {
   margin-left: 10%;

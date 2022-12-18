@@ -3,6 +3,19 @@
   padding-bottom: 4rem;
   text-align: center;
   background-color: #141a31;
+  position: relative;
+}
+
+.top-pattern {
+  position: absolute;
+  top: 0;
+  left: 8rem;
+}
+
+.bottom-pattern {
+  position: absolute;
+  bottom: 0;
+  right: 8rem;
 }
 
 .icons {
@@ -17,6 +30,18 @@
 
 .text {
   text-transform: capitalize;
+  padding-top: 1rem;
+}
+
+.text h3 {
+  font-family: "Chakra Petch";
+  font-size: 1.8rem;
+}
+
+.text p {
+  font-size: 1.2rem;
+  font-family: "IBM Plex Mono";
+  color: #b9b9bf;
 }
 
 .subscribe {
@@ -30,7 +55,8 @@
   padding: 1rem;
   background-color: transparent;
   outline: none;
-  color: #fff;
+  color: #b9b9bf;
+  font-family: "IBM Plex Mono";
   width: 20rem;
   border: 2px solid rgba(34, 183, 143, 0.5);
 }
@@ -40,4 +66,5 @@
   margin-left: 1rem;
   padding: 0.8rem 1rem;
   cursor: pointer;
+  font-family: "Chakra Petch";
 }

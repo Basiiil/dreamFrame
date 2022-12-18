@@ -1,5 +1,6 @@
 import DreamFrame from "./components/dreamFrame/dreamFrame";
 import Faqs from "./components/faqs/faqs";
+import Footer from "./components/footer/footer";
 import Games from "./components/games/games";
 import Headers from "./components/header/header";
 import JoinUs from "./components/join-us/join-us";
@@ -15,6 +16,7 @@ function Home() {
       <Nft />
       <Faqs />
       <JoinUs />
+      <Footer />
     </div>
   );
 }

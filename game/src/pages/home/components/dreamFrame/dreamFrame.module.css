@@ -22,11 +22,13 @@
 
 .core h3 {
   margin-top: 0;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "Chakra Petch";
 }
 
 .core span {
   display: block;
   margin-bottom: 1rem;
   color: #b9b9bf;
+  font-family: "IBM Plex Mono";
+  font-size: 0.9rem;
 }

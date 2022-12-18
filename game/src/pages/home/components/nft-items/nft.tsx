@@ -4,7 +4,7 @@ import styles from "./nft.module.css";
 
 function Nft() {
   return (
-    <div>
+    <div className={styles.container}>
       <p className={styles.title}>NFT Items</p>
       <div className={styles.nfts}>
         {NftData.map((nft, index) => (

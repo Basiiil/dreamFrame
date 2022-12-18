@@ -3,10 +3,17 @@ import { AiOutlineTwitter, AiFillYoutube } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
 import { FaTelegramPlane, FaTiktok } from "react-icons/fa";
 import { SiDiscord } from "react-icons/si";
+import topPattern from "../../../../assets/topPattern.png";
+import bottomPattern from "../../../../assets/bottomPattern.png";
 
 function JoinUs() {
   return (
     <div className={styles.join}>
+      <img
+        src={topPattern}
+        alt="topPattern"
+        className={styles["top-pattern"]}
+      />
       <div className={styles.icons}>
         <AiOutlineTwitter className={styles.icon} />
         <BsFacebook className={styles.icon} />
@@ -23,9 +30,18 @@ function JoinUs() {
         </p>
       </div>
       <div className={styles.subscribe}>
-        <input type="text" className={styles.input} />
+        <input
+          type="text"
+          className={styles.input}
+          placeholder="Enter your email address"
+        />
         <div className={styles.btn}>Subscribe</div>
       </div>
+      <img
+        src={bottomPattern}
+        alt="bottomPattern"
+        className={styles["bottom-pattern"]}
+      />
     </div>
   );
 }

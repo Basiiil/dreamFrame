@@ -1,0 +1,25 @@
+.container {
+  background-color: #141a31;
+  color: #b9b9bf;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 0.8rem;
+}
+
+.row {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.list li {
+  margin: auto 1rem;
+}

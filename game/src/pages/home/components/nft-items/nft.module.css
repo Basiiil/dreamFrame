@@ -1,6 +1,13 @@
+.container {
+  background-color: #141a31;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .title {
   margin: auto 10rem;
   font-size: 2rem;
+  font-family: "Chakra Petch";
 }
 
 .nfts {
@@ -19,4 +26,5 @@
   padding: 1rem 2rem;
   cursor: pointer;
   text-align: center;
+  font-family: "Chakra Petch";
 }

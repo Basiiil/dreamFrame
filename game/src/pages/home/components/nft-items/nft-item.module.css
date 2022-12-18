@@ -3,6 +3,7 @@
   border: 1px solid rgba(34, 183, 143, 0.5);
   margin: 1rem;
   padding: 1rem;
+  font-family: "IBM Plex Mono";
 }
 
 .active {

@@ -1,3 +1,8 @@
+.container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .text {
   text-transform: uppercase;
   text-align: center;
@@ -6,10 +11,12 @@
 .text span {
   display: block;
   color: #14c2a3;
+  font-family: "IBM Plex Mono";
 }
 
 .text h3 {
-  /* margin: 0.5rem auto; */
+  margin-top: 0.5rem;
+  font-family: "Chakra Petch";
   font-size: 1.5rem;
 }
 
@@ -42,4 +49,5 @@
 
 .nft p {
   color: #b9b9bf;
+  font-family: "IBM Plex Mono";
 }
