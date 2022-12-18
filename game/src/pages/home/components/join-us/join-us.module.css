@@ -1,0 +1,43 @@
+.join {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  background-color: #141a31;
+}
+
+.icons {
+  text-align: center;
+}
+
+.icon {
+  margin: auto 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.text {
+  text-transform: capitalize;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.input {
+  padding: 1rem;
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+  width: 20rem;
+  border: 2px solid rgba(34, 183, 143, 0.5);
+}
+
+.btn {
+  background-color: #14c2a3;
+  margin-left: 1rem;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+}
