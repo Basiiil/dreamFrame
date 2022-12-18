@@ -1,7 +1,7 @@
 import styles from "./navbar.module.css";
 import { Link } from "react-router-dom";
 import { NavbarData } from "./navbarData";
-import mask from "../assets/mask.png";
+import mask from "../../assets/mask.png";
 
 function Navbar() {
   return (
