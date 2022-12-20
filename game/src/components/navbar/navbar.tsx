@@ -2,6 +2,7 @@ import styles from "./navbar.module.css";
 import { Link } from "react-router-dom";
 import { NavbarData } from "./navbarData";
 import mask from "../../assets/mask.png";
+import GlobalButton from "../globalButton/globalButton";
 
 function Navbar() {
   return (
@@ -21,8 +22,8 @@ function Navbar() {
           ))}
         </ul>
         <div className={styles.buttons}>
-          <div className={styles.btn}>JOIN DISCORD</div>
-          <div className={`${styles.btn} ${styles.full}`}>BUY TOKEN</div>
+          <GlobalButton text="JOIN DISCORD" />
+          <GlobalButton text="BUY TOKEN" backgroundColor="#14c2a3" />
         </div>
       </div>
     </div>
