@@ -1,0 +1,46 @@
+.content {
+  padding: 20px 30px;
+  position: relative;
+  /* border: solid 5px #22b78f; */
+  /* border-right: solid 2px;
+  border-left: solid 2px; */
+}
+
+.corner {
+  width: 1.5rem;
+  height: 2px;
+  position: absolute;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+  border-top: solid 3px;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+  border-top: solid 3px;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+  border-bottom: solid 3px;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+  border-bottom: solid 3px;
+}
+
+.content h2 {
+  font-family: "Chakra Petch";
+}
+
+.list {
+  font-family: "IBM Plex Mono";
+  color: #b9b9bf;
+}

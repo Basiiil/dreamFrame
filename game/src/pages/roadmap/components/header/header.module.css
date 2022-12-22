@@ -1,0 +1,11 @@
+.container {
+  background-color: #141a31;
+}
+
+.container h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Chakra Petch";
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
