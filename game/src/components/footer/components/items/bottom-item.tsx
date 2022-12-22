@@ -1,10 +1,10 @@
-import styles from "./footer.module.css";
+import styles from "./bottom-item.module.css";
 
-function Footer() {
+function BottomItem() {
   return (
     <div className={styles.container}>
       <div className={styles.row}>
-        <span>CYBOX 2022- ALL rights reserved</span>
+        <span>DreamFrame 2022- ALL rights reserved</span>
         <ul className={styles.list}>
           <li>Privacy</li>
           <li>Policy</li>
@@ -17,4 +17,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default BottomItem;
