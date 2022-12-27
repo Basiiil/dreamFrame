@@ -4,6 +4,7 @@ const Home = lazy(() => import("../pages/home"));
 const Roadmap = lazy(() => import("../pages/roadmap"));
 const NotFound = lazy(() => import("../pages/notFound"));
 const ContactUs = lazy(() => import("../pages/contact-us"));
+const Card = lazy(() => import("../pages/card"));
 
 interface IRoutes {
   name: string;
@@ -21,4 +22,5 @@ export const routes: IRoutes[] = [
     component: ContactUs,
     protected: false,
   },
+  { name: "card", path: "/card", component: Card, protected: false },
 ];
